@@ -36,13 +36,13 @@ let package = Package(
     .target(
       name: "AppLovinAdapterTarget",
       dependencies: [
-        .target(name: "Adapter"),
+        .target(name: "AppLovinAdapter"),
         .product(name: "AppLovinSDK", package: "AppLovinSDK")
       ],
       path: "AppLovinAdapterTarget"
     ),
     .binaryTarget(
-      name: "Adapter",
+      name: "AppLovinAdapter",
       url:
         "https://dl.google.com/googleadmobadssdk/mediation/ios/applovin/AppLovinAdapter-13.3.1.0.zip",
       checksum: "df18b69ad0d893cc64c5ca145c26d551621102311b849a30471b8e6855cdc6f0"
