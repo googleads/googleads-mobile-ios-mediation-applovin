@@ -29,7 +29,7 @@ let package = Package(
       .package(
           name: "AppLovinSDK",
           url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git",
-          from: "13.3.1"
+          exact: "13.4.0"
       )
     ],
   targets: [
@@ -44,8 +44,8 @@ let package = Package(
     .binaryTarget(
       name: "AppLovinAdapter",
       url:
-        "https://dl.google.com/googleadmobadssdk/mediation/ios/applovin/AppLovinAdapter-13.3.1.0.zip",
-      checksum: "df18b69ad0d893cc64c5ca145c26d551621102311b849a30471b8e6855cdc6f0"
+        "https://dl.google.com/googleadmobadssdk/mediation/ios/applovin/AppLovinAdapter-13.4.0.0.zip",
+      checksum: "39120e83712796ae34eef9eb730ac1d3d8efa92431ba2aa3146e2ee84e84cc11"
     ),
   ]
 )
