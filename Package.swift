@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.6
 
 // Copyright 2025 Google LLC.
 //
@@ -27,7 +27,6 @@ let package = Package(
   ],
   dependencies: [
       .package(
-          name: "AppLovinSDK",
           url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git",
           exact: "13.4.0"
       )
@@ -37,7 +36,7 @@ let package = Package(
       name: "AppLovinAdapterTarget",
       dependencies: [
         .target(name: "AppLovinAdapter"),
-        .product(name: "AppLovinSDK", package: "AppLovinSDK")
+        .product(name: "AppLovinSDK", package: "AppLovin-MAX-Swift-Package"),
       ],
       path: "AppLovinAdapterTarget"
     ),
