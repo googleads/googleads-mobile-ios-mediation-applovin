@@ -18,7 +18,7 @@ import PackageDescription
 
 let package = Package(
   name: "AppLovinAdapter",
-  platforms: [.iOS(.v12)],
+  platforms: [.iOS(.v13)],
   products: [
     .library(
       name: "AppLovinAdapterTarget",
@@ -28,11 +28,11 @@ let package = Package(
   dependencies: [
     .package(
       url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git",
-      exact: "13.4.0"
+      exact: "13.5.1"
     ),
     .package(
       url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
-      from: "12.0.0"
+      from: "13.0.0"
     ),
   ],
   targets: [
@@ -48,8 +48,8 @@ let package = Package(
     .binaryTarget(
       name: "AppLovinAdapter",
       url:
-        "https://dl.google.com/googleadmobadssdk/mediation/ios/applovin/AppLovinAdapter-13.4.0.0.zip",
-      checksum: "39120e83712796ae34eef9eb730ac1d3d8efa92431ba2aa3146e2ee84e84cc11"
+        "https://dl.google.com/googleadmobadssdk/mediation/ios/applovin/AppLovinAdapter-13.5.1.0.zip",
+      checksum: "3bebd2735b79d56256210ff495041297dad3316f49a170ceb819424abf20a38e"
     ),
   ]
 )
