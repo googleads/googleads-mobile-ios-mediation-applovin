@@ -49,7 +49,7 @@ let package = Package(
       name: "AppLovinAdapter",
       url:
         "https://dl.google.com/googleadmobadssdk/mediation/ios/applovin/AppLovinAdapter-13.6.0.0.zip",
-      checksum: "3bebd2735b79d56256210ff495041297dad3316f49a170ceb819424abf20a38e"
+      checksum: "ac60839dd007e3b3b3f89b4f605b21d0b5096374bebe4dda6587dfa0229a0b2e"
     ),
   ]
 )
