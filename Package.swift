@@ -28,7 +28,7 @@ let package = Package(
   dependencies: [
     .package(
       url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git",
-      exact: "13.6.1"
+      exact: "13.6.2"
     ),
     .package(
       url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
@@ -48,7 +48,7 @@ let package = Package(
     .binaryTarget(
       name: "AppLovinAdapter",
       url:
-        "https://dl.google.com/googleadmobadssdk/mediation/ios/applovin/AppLovinAdapter-13.6.1.0.zip",
+        "https://dl.google.com/googleadmobadssdk/mediation/ios/applovin/AppLovinAdapter-13.6.2.0.zip",
       checksum: "70b78f9a12509b0d234691b0d07a4ab4ccfa31d7b7e3d398a84dc84d4c249c1a"
     ),
   ]
