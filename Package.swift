@@ -48,7 +48,7 @@ let package = Package(
     .binaryTarget(
       name: "AppLovinAdapter",
       url:
-        "https://dl.google.com/googleadmobadssdk/mediation/ios/applovin/AppLovinAdapter-13.6.2.0.zip",
+        "https://dl.google.com/googleadmobadssdk/mediation/ios/applovin/AppLovinAdapter-13.6.2.1.zip",
       checksum: "2766032c790b6727494443abbe1068580afca0d60e4cea990a86ed85e3e0b7a7"
     ),
   ]
